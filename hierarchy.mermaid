@@ -1,0 +1,25 @@
+graph TD
+   CEO[CEO - Level 1] --> |YönetirVeGörür| Dir1[Direktör A - Level 2]
+   CEO --> |YönetirVeGörür| Dir2[Direktör B - Level 2]
+   
+   Dir1 --> |YönetirVeGörür| Man1[Müdür A1 - Level 3]
+   Dir1 --> |YönetirVeGörür| Man2[Müdür A2 - Level 3]
+   Dir2 --> |YönetirVeGörür| Man3[Müdür B1 - Level 3]
+   
+   Man1 --> |YönetirVeGörür| Emp1[Çalışan A1.1 - Level 4]
+   Man1 --> |YönetirVeGörür| Emp2[Çalışan A1.2 - Level 4]
+   Man2 --> |YönetirVeGörür| Emp3[Çalışan A2.1 - Level 4]
+   Man3 --> |YönetirVeGörür| Emp4[Çalışan B1.1 - Level 4]
+
+   subgraph Permissions
+       CEO -->|Oluşturur/Görür/Onaylar| AllRequests[Tüm Talepler]
+       Dir1 -->|Oluşturur/Görür/Onaylar| DeptRequests[Departman Talepleri]
+       Man1 -->|Oluşturur/Görür/Onaylar| TeamRequests[Takım Talepleri]
+       Emp1 -->|Oluşturur| Request[Talep]
+   end
+
+   subgraph RequestFlow
+       Request -->|Onay1| Man1
+       Man1 -->|Onay2| Dir1
+       Dir1 -->|Onay3| CEO
+   end

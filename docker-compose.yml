@@ -1,0 +1,16 @@
+services:
+ mssql:
+   image: mcr.microsoft.com/azure-sql-edge
+   environment:
+     - ACCEPT_EULA=Y
+     - SA_PASSWORD=Password123
+     - MSSQL_PID=Developer
+   ports:
+     - "1433:1433"
+   networks:
+     - organizeCRM_network
+   platform: linux/arm64
+
+networks:
+ organizeCRM_network:
+   driver: bridge

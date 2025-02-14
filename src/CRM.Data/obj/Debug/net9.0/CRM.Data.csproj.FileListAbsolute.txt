@@ -1,0 +1,14 @@
+/Users/bahadirkorkmazer/projects/crm/src/CRM.Data/bin/Debug/net9.0/CRM.Data.deps.json
+/Users/bahadirkorkmazer/projects/crm/src/CRM.Data/bin/Debug/net9.0/CRM.Data.runtimeconfig.json
+/Users/bahadirkorkmazer/projects/crm/src/CRM.Data/bin/Debug/net9.0/CRM.Data.dll
+/Users/bahadirkorkmazer/projects/crm/src/CRM.Data/bin/Debug/net9.0/CRM.Data.pdb
+/Users/bahadirkorkmazer/projects/crm/src/CRM.Data/obj/Debug/net9.0/CRM.Data.csproj.AssemblyReference.cache
+/Users/bahadirkorkmazer/projects/crm/src/CRM.Data/obj/Debug/net9.0/CRM.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bahadirkorkmazer/projects/crm/src/CRM.Data/obj/Debug/net9.0/CRM.Data.AssemblyInfoInputs.cache
+/Users/bahadirkorkmazer/projects/crm/src/CRM.Data/obj/Debug/net9.0/CRM.Data.AssemblyInfo.cs
+/Users/bahadirkorkmazer/projects/crm/src/CRM.Data/obj/Debug/net9.0/CRM.Data.csproj.CoreCompileInputs.cache
+/Users/bahadirkorkmazer/projects/crm/src/CRM.Data/obj/Debug/net9.0/CRM.Data.dll
+/Users/bahadirkorkmazer/projects/crm/src/CRM.Data/obj/Debug/net9.0/refint/CRM.Data.dll
+/Users/bahadirkorkmazer/projects/crm/src/CRM.Data/obj/Debug/net9.0/CRM.Data.pdb
+/Users/bahadirkorkmazer/projects/crm/src/CRM.Data/obj/Debug/net9.0/CRM.Data.genruntimeconfig.cache
+/Users/bahadirkorkmazer/projects/crm/src/CRM.Data/obj/Debug/net9.0/ref/CRM.Data.dll

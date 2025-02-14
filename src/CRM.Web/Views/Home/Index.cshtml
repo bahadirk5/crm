@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    @if (ViewBag.UserInfo != null)
+    {
+        <div class="card">
+            <div class="card-body">
+                <p><strong>Full Name:</strong> @ViewBag.UserInfo.FullName</p>
+                <p><strong>Email:</strong> @ViewBag.UserInfo.Email</p>
+                <p><strong>Position ID:</strong> @ViewBag.UserInfo.PositionId</p>
+                <p><strong>Position Level:</strong> @ViewBag.UserInfo.PositionLevel</p>
+                <p><strong>Department ID:</strong> @ViewBag.UserInfo.DepartmentId</p>
+            </div>
+        </div>
+    }
+</div>
